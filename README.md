@@ -16,6 +16,8 @@ A live version of this tool is available at: https://superspl.at/editor
 
 To learn more about using SuperSplat, please refer to the [User Guide](https://developer.playcanvas.com/user-manual/gaussian-splatting/editing/supersplat/).
 
+> **Personal fork note:** I'm using this fork to experiment with custom splat workflows and learn the codebase. Changes here may not be suitable for upstream.
+
 ## Local Development
 
 To initialize a local development environment for SuperSplat, ensure you have [Node.js](https://nodejs.org/) 18 or later installed. Follow these steps:
@@ -66,26 +68,4 @@ https://github.com/playcanvas/supersplat/tree/main/static/locales
 
 ### Testing Translations
 
-To test your translations:
-
-1. Run the development server:
-
-   ```sh
-   npm run develop
-   ```
-
-2. Open your browser and navigate to:
-
-   ```
-   http://localhost:3000/?lng=<locale>
-   ```
-
-   Replace `<locale>` with your language code (e.g., `fr`, `de`, `es`).
-
-## Contributors
-
-SuperSplat is made possible by our amazing open source community:
-
-<a href="https://github.com/playcanvas/supersplat/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=playcanvas/supersplat" />
-</a>
+To test your translat
