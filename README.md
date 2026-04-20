@@ -52,6 +52,8 @@ To initialize a local development environment for SuperSplat, ensure you have [N
 
 When changes to the source are detected, SuperSplat is rebuilt automatically. Simply refresh your browser to see your changes.
 
+> **Personal tip:** If you're on a Mac and using Chrome, I found it easiest to open DevTools (`Cmd+Option+I`), go to the Network tab, and check "Disable cache" — this persists while DevTools is open and avoids the service worker dance entirely.
+
 ## Localizing the SuperSplat Editor
 
 The currently supported languages are available here:
@@ -62,10 +64,4 @@ https://github.com/playcanvas/supersplat/tree/main/static/locales
 
 1. Add a new `<locale>.json` file in the `static/locales` directory.
 
-2. Add the locale to the list here:
-
-   https://github.com/playcanvas/supersplat/blob/main/src/ui/localization.ts
-
-### Testing Translations
-
-To test your translat
+2.
